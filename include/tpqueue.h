@@ -22,7 +22,7 @@ class TPQueue {
   }
 
  public:
-  TPQueue() :head(nullptr), tail(nullptr), curr(nullptr) {}
+  TPQueue() :head(nullptr), tail(nullptr) {}
   ~TPQueue() {}
   void push(const T& value) {
     if (tail && head) {
